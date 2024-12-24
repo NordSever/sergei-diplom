@@ -1,16 +1,16 @@
 @font-face {
     font-family: "OpenSans";
-    src: url("/fonts/OpenSans-Regular.woff2") format("woff2"),
-        url("/fonts/OpenSans-Regular.woff") format("woff"),
-        url("/fonts/OpenSans-Regular.ttf") format("truetype");
+    src: url("./fonts/OpenSans-Regular.woff2") format("woff2"),
+        url("./fonts/OpenSans-Regular.woff") format("woff"),
+        url("./fonts/OpenSans-Regular.ttf") format("truetype");
     font-weight: normal;
 }
 
 @font-face {
     font-family: "OpenSans";
-    src: url("/fonts/OpenSans-Bold.woff2") format("woff2"),
-        url("/fonts/OpenSans-Bold.woff") format("woff"),
-        url("/fonts/OpenSans-Bold.ttf") format("truetype");
+    src: url("./fonts/OpenSans-Bold.woff2") format("woff2"),
+        url("./fonts/OpenSans-Bold.woff") format("woff"),
+        url("./fonts/OpenSans-Bold.ttf") format("truetype");
     font-weight: bold;
 }
 
@@ -73,7 +73,7 @@ h3 {
 
 /*-------------------------header------------------------*/
 .up {
-    background-image: url("/images/banner-bg.jpg");
+    background-image: url("../images/banner-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-color: mediumaquamarine;
@@ -203,19 +203,19 @@ h3 {
 }
 
 .garden {
-    background-image: url("/images/trend1.jpg"); 
+    background-image: url("../images/trend1.jpg"); 
 }
 
 .cheese {
-    background-image: url("/images/trend2.jpg");
+    background-image: url("../images/trend2.jpg");
 }
 
 .mountains {
-    background-image: url("/images/trend3.jpg");
+    background-image: url("../images/trend3.jpg");
 }
 
 .lemon {
-    background-image: url("/images/trend4.jpg");
+    background-image: url("../images/trend4.jpg");
 }
 
 .head-trend {
