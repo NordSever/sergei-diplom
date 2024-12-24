@@ -1,16 +1,16 @@
 @font-face {
     font-family: "OpenSans";
-    src: url("./fonts/OpenSans-Regular.woff2") format("woff2"),
-        url("./fonts/OpenSans-Regular.woff") format("woff"),
-        url("./fonts/OpenSans-Regular.ttf") format("truetype");
+    src: url("../fonts/OpenSans-Regular.woff2") format("woff2"),
+        url("../fonts/OpenSans-Regular.woff") format("woff"),
+        url("../fonts/OpenSans-Regular.ttf") format("truetype");
     font-weight: normal;
 }
 
 @font-face {
     font-family: "OpenSans";
-    src: url("./fonts/OpenSans-Bold.woff2") format("woff2"),
-        url("./fonts/OpenSans-Bold.woff") format("woff"),
-        url("./fonts/OpenSans-Bold.ttf") format("truetype");
+    src: url("../fonts/OpenSans-Bold.woff2") format("woff2"),
+        url("../fonts/OpenSans-Bold.woff") format("woff"),
+        url("../fonts/OpenSans-Bold.ttf") format("truetype");
     font-weight: bold;
 }
 
@@ -439,7 +439,7 @@ h3 {
     width: 48px;
     height: 48px;
     background-color: #b59f5b;
-    background-image: url("/svg/search.svg");
+    background-image: url("../svg/search.svg");
     background-repeat: no-repeat;
     background-size: 18px;
     background-position: center center;
@@ -745,15 +745,15 @@ h3 {
 }
 
 .dribbble {
-    background-image: url("/svg/001-dribbble.svg");
+    background-image: url("../svg/001-dribbble.svg");
 }
     
 .pinterest {
-    background-image: url("/svg/002-pinterest.svg");
+    background-image: url("../svg/002-pinterest.svg");
 }
 
 .tumblr {
-    background-image: url("/svg/003-tumblr.svg");
+    background-image: url("../svg/003-tumblr.svg");
 }
 
 .down-copyright {
@@ -876,7 +876,7 @@ body ._hidden {
     z-index: 1;
     width: 10px;
     height: 16px;
-    background-image: url("/svg/form-arrows.svg");
+    background-image: url("../svg/form-arrows.svg");
     background-size: cover;
     background-repeat: no-repeat;
     right: 15px;
@@ -914,7 +914,7 @@ body ._hidden {
     position: absolute;
     width: 17px;
     height: 17px;
-    background-image: url("/svg/form-empty-circle.svg");
+    background-image: url("../svg/form-empty-circle.svg");
     background-size: cover;
     background-repeat: no-repeat;
     top: calc(50% - 8.5px);
@@ -922,7 +922,7 @@ body ._hidden {
 }
 
 .appearance-check-m:checked + .text-check-m::before {
-    background-image: url("/svg/form-circle.svg");
+    background-image: url("../svg/form-circle.svg");
 }
 
 .text-wishes {
@@ -986,7 +986,7 @@ body ._hidden {
 
 @media (min-width: 641px) and (max-width: 1200px) {
     .up {
-        background-image: url("/images/banner-bg-tablet.jpg");
+        background-image: url("../images/banner-bg-tablet.jpg");
         padding-top: 43px;
         padding-bottom: 85px;
     }
@@ -1129,7 +1129,7 @@ body ._hidden {
 
 @media (max-width: 640px) {
     .up {
-        background-image: url("/images/banner-mobile.jpg");
+        background-image: url("../images/banner-mobile.jpg");
         padding-top: 30px;
         padding-bottom: 192px;
     }
